@@ -1,0 +1,41 @@
+@import "../../App.scss";
+
+.task-page{
+    background-color: $base-color;
+    overflow: auto;
+}
+ 
+
+.task-page-container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.task-page-title{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.task-blocks-container{
+    width: 70%;
+    margin: auto;
+}
+
+.task-block:nth-child(n){
+    background-color: #798692;
+}
+.task-block:nth-child(2n){
+    background-color: #a95c61;
+}
+
+.plus-sign{
+    color: $accent-color;
+    font-size: 3rem;
+    margin-top: 10px;
+    cursor: pointer;
+}
